@@ -10,7 +10,7 @@ This repository provides a virtual-move Monte Carlo simulation framework for mod
 - Support for multiple particle shapes: cubes, rods, disks, and triangular prisms.
 - Virtual-move Monte Carlo simulation using both **single-particle** and **virtual cluster moves** for improved sampling.
 - Comparison with atomistic and coarse-grained (CG) interaction models.
-- Capability to simulate **phase behavior** and assembly morphology under varying interaction strengths.
+- Capability to simulate **phase behavior** and self-assembly under varying interaction strengths and packing densities.
 
 ---
 
