@@ -33,8 +33,6 @@ Once compiled, run the simulation with:
 
 The simulation starts based on the parameters specified in the main() function of vdwmontecarlo.cpp.
 
-.
-
 ## 🧠 What You Need to Modify
 
 To customize your simulation, you only need to modify the variables in the `main()` function of `vdwmontecarlo.cpp`. Below is a list of configurable variables and their purposes:
