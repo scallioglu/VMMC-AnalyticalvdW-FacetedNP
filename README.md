@@ -22,12 +22,15 @@ To compile the code, run:
 
 ```bash
 g++ -o my_program vdwmontecarlo.cpp PolygonClipping.cpp Polygon.cpp potential_cal.cpp
+```bash
 
 ## ▶️ Running the Simulation
 Once compiled, run the simulation with:
 
 ```bash
 ./my_program
+```bash
+
 The simulation starts based on the parameters specified in the main() function of vdwmontecarlo.cpp.
 
 .
