@@ -1,6 +1,6 @@
-# Faceted Nanoparticle Self-Assembly Simulation using Analytical van der Waals Potentials
+# Monte Carlo Simulation of Faceted Nanoparticles Interacting via Analytical Potentials
 
-This repository provides a Monte Carlo simulation framework for modeling the self-assembly of faceted nanoparticles (NPs) using an accurate **analytical potential** to capture orientation-dependent van der Waals (vdW) interactions. The framework enables large-scale and fast simulations of NP assembly, supporting multiple particle shapes and interaction models.
+This repository provides a virtual-move Monte Carlo simulation framework for modeling the self-assembly of faceted nanoparticles (NPs) using an accurate **analytical potential** to capture orientation-dependent van der Waals (vdW) interactions. The framework enables large-scale and fast simulations of NP assembly, supporting multiple particle shapes and interaction models. Additionally, there is an option to investigate the self-assembly and phase behavior using atomistic or coarse-grained models, allowing flexible resolution depending on your research needs.
 
 ---
 
@@ -8,7 +8,7 @@ This repository provides a Monte Carlo simulation framework for modeling the sel
 
 - Accurate closed-form **analytical vdW potentials** between faceted NPs.
 - Support for multiple particle shapes: cubes, rods, disks, and triangular prisms.
-- Monte Carlo simulation using both **single-particle** and **virtual cluster moves** for improved sampling.
+- Virtual-move Monte Carlo simulation using both **single-particle** and **virtual cluster moves** for improved sampling.
 - Comparison with atomistic and coarse-grained (CG) interaction models.
 - Capability to simulate **phase behavior** and assembly morphology under varying interaction strengths.
 
