@@ -7,9 +7,9 @@ This repository provides a virtual-move Monte Carlo simulation framework for sim
 ## Key Features
 
 - Accurate closed-form **analytical vdW potentials** between faceted NPs.
-- Support for multiple particle shapes: cubes, rods, disks, and triangular prisms.
+- Support for **multiple** particle shapes: cubes, rods, disks, and triangular prisms.
 - Virtual-move Monte Carlo simulation using both **single-particle** and **virtual cluster moves** for improved sampling.
-- Comparison with atomistic and coarse-grained (CG) interaction models.
+- Also supports **atomistic** and **coarse-grained** interaction models of NPs.
 - Capability to simulate **phase behavior** and self-assembly under varying interaction strengths and packing densities.
 
 ---
