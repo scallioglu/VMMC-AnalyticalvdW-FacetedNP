@@ -35,7 +35,7 @@ The simulation starts based on the parameters specified in the main() function o
 
 ## 🧠 What You Need to Modify
 
-To customize your simulation, you only need to modify the variables in the `main()` function of `vdwmontecarlo.cpp`. Below is a list of configurable variables and their purposes:
+To customize your simulation, you only need to modify the variables in the params.txt file. Below is a list of configurable variables and their purposes:
 
 - **`Style`** – Sets the visualization style for trajectory output (e.g., `"Virtual"`, `"Vertex"`, `"AA"`).
 
