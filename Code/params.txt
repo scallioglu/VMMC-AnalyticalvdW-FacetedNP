@@ -1,0 +1,74 @@
+# Style: Visualization style, options are AA, Virtual, Vertex
+Style = Virtual
+
+# model: Energy computation model, options are AACG (for atomistic or CG models), vdW (for analytical model)
+model = vdW
+
+# NumberOfParticles: Total number of particles in the simulation
+NumberOfParticles = 256
+
+# BoxLength: The length of the simulation box, keep in mind that BoxLength^3 > NumberOfParticles * (AASigma *
+BoxLength = 252.48
+
+# Temperature: Temperature of the system in Kelvin
+Temperature = 300.0
+
+# globalminEnergy: The global minimum energy between two particles in a parallel configuration (in kBT units)
+globalminEnergy = 20.0
+
+# AASigma: The sigma parameter for silver atoms in the potential
+AASigma = 2.63
+
+# AAEpsilon: The epsilon parameter for silver atoms in the potential
+AAEpsilon = 0.24
+
+# EquilibrationSteps: Number of steps for equilibration (0 for volume-expansion simulations, zero means no equilibration)
+EquilibrationSteps = 1000
+
+# ProductionSteps: Number of production steps in the simulation (95000000 for cuboids, 65000000 for triangular prism)
+ProductionSteps = 10000
+
+# EnergyOutputInterval: Interval at which energy is outputted (in steps) (10000 recommended for cuboids and triangular prism)
+EnergyOutputInterval = 100
+
+# TrajectoryInterval: Interval at which trajectory data is outputted (in steps) (10000 recommended for cuboids and triangular prism)
+TrajectoryInterval = 100
+
+# RestartFileInterval: Interval at which restart files are generated (in steps)
+RestartFileInterval = 5000000
+
+# volumeMoveInterval: Number of MC steps between volume expansion moves
+volumeMoveInterval = 5000000
+
+# ParticleSideAASize: Number of atoms per side for a cubic configuration
+ParticleSideAASize = 12
+
+# aspectratio: The aspect ratio of the particles (height / length) (1.0 for triangular prism)
+aspectratio = 2.0
+
+# MaxRotation: Maximum allowed rotation (in degrees) for a particle in each trial step
+MaxRotation = 90
+
+# MaxMoveSingle: Maximum translation for a single particle move (in units of ParticleSideAASize * AASigma)
+MaxMoveSingle = 0.33333
+
+# MaxMoveCluster: Maximum translation for a cluster move (in units of ParticleSideAASize * AASigma)
+MaxMoveCluster = 2.0
+
+# SingleMoveProbability: Probability of selecting a single particle move instead of a cluster move
+SingleMoveProbability = 0.7
+
+# volumeexpansion: Whether volume expansion moves are performed (true or false) (if volumefraction = 1, it automatically does this)
+volumeexpansion = true
+
+# CGSigma: The diameter of the CG bead
+CGSigma = 2.63
+
+# Hamaker: Hamaker constant, silver used as example (in the units of 10^-19 J)
+Hamaker = 1.5
+
+# AtomDensity: Atom density of metal, silver used as example (in the units of atoms/Angstrom^3, depending on the element you used)
+AtomDensity = 0.0585648358351751
+
+# shape: Shape of the particles or the system, e.g., cuboid, triangularprism
+shape = cuboid
